@@ -12,5 +12,9 @@ jobs:
                 python-version: '3.14'
             - name: Verify the Version
               run : python --version
+            - name: Intalling Request
+              run: pip install requests
+            - name: intalling dotenv
+              run: python -m pip install python-dotenv
             - name: Run The File
               run : python index.py 
