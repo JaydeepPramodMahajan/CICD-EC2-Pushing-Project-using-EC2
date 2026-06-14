@@ -12,7 +12,5 @@ jobs:
                 python-version: '3.14'
             - name: Verify the Version
               run : python --version
-            - name: Install Dependancies
-              run : pip install -r requirements.txt
             - name: Run The File
               run : python index.py 
